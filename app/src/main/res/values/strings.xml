@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmashTheAnts</string>
+    <string name="score_1">First place name</string>
+    <string name="score_2">Second place name</string>
+    <string name="score_3">Third place name</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings">
+        <Preference
+            android:title="Smash the Ants!"
+            android:summary="Copyright 2020 -Joshua Farren"
+            android:selectable="false"/>
+        <Preference
+            android:title="Version"
+            android:summary="1.0"
+            android:selectable="false"/>
+        <Preference
+            android:title="High Score"
+            android:summary=""
+            android:key="high_score_key"
+            android:selectable="false"/>
+        <CheckBoxPreference
+            android:title="Play Background Music"
+            android:key="key_music_enabled"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:title="Turn sound effects on/off"
+            android:key="key_sound_effects_enabled"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
